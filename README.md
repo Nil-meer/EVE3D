@@ -12,7 +12,7 @@ All credits belong to the **Marks lab** and **OATML group**  for developing the 
 - sys
 - os
 
-## Workflow
+## Usage
 
 1. Download EVE prediction score from https://evemodel.org/ as .csv file for your gene of interest or as a bulk and unzip into EVE_csv folder.
 2. Run EVE3D.py and enter: gene as named on EVE website, cut-offs for benign and deleterious as given by EVE multiplied by 100, object name of your protein in PyMOL.
