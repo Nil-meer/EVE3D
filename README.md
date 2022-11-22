@@ -1,5 +1,5 @@
 # EVE3D
-Color-coding protein structure in PyMOL according to evolutionary conservation based on the Evolutionary model of Variant Effect (EVE) https://evemodel.org/.
+Color-coding protein structure in PyMOL according to evolutionary conservation based on the Evolutionary model of Variant Effects (EVE) https://evemodel.org/.
 
 ## Credits
 All credits belong to the **Marks lab** and **OATML group**  for developing the EVE model. Please find the original publication FYI and for reference here: https://www.nature.com/articles/s41586-021-04043-8
@@ -19,7 +19,7 @@ All credits belong to the **Marks lab** and **OATML group**  for developing the 
 3. Tool stores .pml file with the generated commands for PyMOL in the repo /Output folder.
 4. Excecute .pml from PyMOL console by navigating into output folder (cd path) and run .pml file (@GENE.pml).
 
-## Example Result
+## Example result
 
 
 
