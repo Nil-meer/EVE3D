@@ -13,7 +13,7 @@ import os
 # In[2]:
 
 
-FOLDER_DIR = os.path.dirname(os.path.realpath('__file__'))
+FOLDER_DIR = os.path.dirname(os.path.realpath(__file__))
 print (FOLDER_DIR)
 
 
