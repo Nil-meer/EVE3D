@@ -35,13 +35,13 @@ print (true_output_path)
 # In[5]:
 
 
-gene = input("Please enter the name of the gene: ")
+gene = input("Please enter the name of the gene as depicted on EVE website: ")
 
 
 # In[6]:
 
 
-object = input("Please enter the name of the object: ")
+object = input("Please enter the PyMOL object name of your protein: ")
 if object=='':
     object = object
 else:
@@ -52,13 +52,13 @@ else:
 # In[7]:
 
 
-benign = input("Please enter the cut-off for benign: ")
+benign = input("Please enter the cut-off for benign multiplied by 100: ")
 
 
 # In[8]:
 
 
-delet = input("Please enter the cut-off for deleterious: ")
+delet = input("Please enter the cut-off for pathogenic multiplied by 100: ")
 
 
 # In[9]:
