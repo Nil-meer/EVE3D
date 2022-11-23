@@ -20,3 +20,8 @@ Credits belong to the **Marks lab** and **OATML group**  for developing the fant
 4. Excecute .pml from PyMOL console by navigating into the output folder (cd path) and run .pml file (@GENE.pml).
 
 ## Example result
+
+
+
+https://user-images.githubusercontent.com/118387712/203595773-03815438-c809-446e-8c22-3cf293bb8c41.mp4
+
