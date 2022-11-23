@@ -14,7 +14,7 @@ import os
 
 
 FOLDER_DIR = os.path.dirname(os.path.realpath('__file__'))
-#print (FOLDER_DIR)
+print (FOLDER_DIR)
 
 
 # In[3]:
@@ -29,7 +29,7 @@ output_path = ("Output")
 
 true_input_path = os.path.join(FOLDER_DIR, input_path)
 true_output_path = os.path.join(FOLDER_DIR, output_path)
-#print (true_output_path)
+print (true_output_path)
 
 
 # In[5]:
@@ -74,7 +74,7 @@ gene_txt = gene + ('.pml')
 file_to_open = os.path.join(true_input_path, gene_CSV)
 txt_to_save = os.path.join(true_output_path, gene_txt)
 txt_to_save2 = os.path.join(true_output_path, gene_CSV)
-#print(file_to_open)
+print(file_to_open)
 
 
 # In[11]:
@@ -121,7 +121,3 @@ df.to_csv(txt_to_save2)
 with open(txt_to_save, 'w') as f:
     dfAsString = df.b_fact.head(number_residues).to_string(header=False, index=False) + '\n color white, ' + objec + ' \n indicate ' + object + 'b<' + benign + '\n spectrum b, blue white, indicate, minimum=0, maximum=' + benign + '\n indicate ' + object + 'b>' + delet + '\n spectrum b, white red, indicate, minimum=' + delet + ', maximum=100'
     f.write(dfAsString)
-
-
-
-
