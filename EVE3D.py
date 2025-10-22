@@ -16,7 +16,6 @@ import os
 FOLDER_DIR = os.path.dirname(os.path.realpath(__file__))
 print (FOLDER_DIR)
 
-
 # In[3]:
 
 
